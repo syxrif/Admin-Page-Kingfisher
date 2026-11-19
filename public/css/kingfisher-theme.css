@@ -1,0 +1,79 @@
+:root {
+    --bs-primary: #EA580C;
+    --bs-primary-rgb: 234, 88, 12;
+    --bs-link-color: #EA580C;
+    --bs-link-hover-color: #C2410C;
+}
+
+/* Primary Buttons */
+.btn-primary {
+    background-color: #EA580C !important;
+    border-color: #EA580C !important;
+    color: #ffffff !important;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active {
+    background-color: #C2410C !important;
+    border-color: #C2410C !important;
+}
+
+.btn-outline-primary {
+    color: #EA580C !important;
+    border-color: #EA580C !important;
+}
+
+.btn-outline-primary:hover {
+    background-color: #EA580C !important;
+    color: #ffffff !important;
+}
+
+/* Active Sidebar Link */
+.sidebar-wrapper .menu .sidebar-item.active > .sidebar-link {
+    background-color: #EA580C !important;
+    box-shadow: 0 4px 12px rgba(234, 88, 12, 0.35) !important;
+}
+
+.sidebar-wrapper .menu .sidebar-item.active > .sidebar-link i,
+.sidebar-wrapper .menu .sidebar-item.active > .sidebar-link span {
+    color: #ffffff !important;
+}
+
+/* Sidebar Hover */
+.sidebar-wrapper .menu .sidebar-link:hover {
+    color: #EA580C !important;
+}
+
+/* Form Inputs & Switches Focus Ring */
+.form-control:focus,
+.form-select:focus,
+.form-check-input:checked {
+    border-color: #EA580C !important;
+    box-shadow: 0 0 0 0.2rem rgba(234, 88, 12, 0.2) !important;
+}
+
+.form-check-input:checked {
+    background-color: #EA580C !important;
+}
+
+/* Badges & Text Accents */
+.bg-primary {
+    background-color: #EA580C !important;
+}
+
+.text-primary {
+    color: #EA580C !important;
+}
+
+/* Dark Mode */
+html[data-bs-theme="dark"] body {
+    background-color: #0F172A !important;
+}
+
+html[data-bs-theme="dark"] .sidebar-wrapper,
+html[data-bs-theme="dark"] .card {
+    background-color: #1E293B !important;
+    border-color: #334155 !important;
+}
+
