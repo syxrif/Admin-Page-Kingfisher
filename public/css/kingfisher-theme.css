@@ -190,3 +190,30 @@ html[data-bs-theme="dark"] .modal-footer.bg-light {
     background-color: #0F172A !important;
     border-top: 1px solid var(--kf-dark-border) !important;
 }
+
+/* Make button icons inherit button text color */
+.btn i,
+.btn svg {
+    color: inherit !important;
+    fill: currentColor !important;
+}
+
+/* Sidebar icons match link color */
+.sidebar-wrapper .menu .sidebar-link i,
+.sidebar-wrapper .menu .sidebar-link svg {
+    color: inherit !important;
+    transition: color 0.15s ease !important;
+}
+
+.sidebar-wrapper .menu .sidebar-link:hover i {
+    color: #EA580C !important;
+}
+
+.sidebar-wrapper .menu .sidebar-item.active > .sidebar-link {
+    color: #FFFFFF !important;
+}
+
+/* Card title icons match primary color */
+.card-title i {
+    color: #EA580C !important;
+}
