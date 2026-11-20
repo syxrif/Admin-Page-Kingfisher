@@ -36,7 +36,7 @@
     <div class="sidebar-header position-relative" style="padding-bottom: 0.25rem !important;">
         <div class="d-flex justify-content-between align-items-center">
             <div class="logo">
-                <a href="{{ route('dashboard') }}"><img src="{{ asset('mazer/assets/static/images/logo/logokingfishercampsite.png') }}" alt="Kingfisher Logo" style="height: 6rem; width: auto; max-width: 11rem; object-fit: contain;"></a>
+                <a href="{{ route('dashboard') }}"><img src="{{ asset('mazer/assets/static/images/logo/logokingfishercampsite.png') }}" alt="Kingfisher Logo" style="height: 7rem; width: auto; max-width: 11rem; object-fit: contain;"></a>
                 
                 <!--
                 <a href="index.html"><img src="./assets/compiled/svg/logo.svg" alt="Logo" srcset=""></a>
